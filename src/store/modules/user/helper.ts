@@ -23,7 +23,7 @@ export interface UserState {
 export function defaultSetting(): UserState {
   return {
     userInfo: {
-      avatar: 'https://raw.githubusercontent.com/Chanzhaoyu/chatgpt-shuowen/main/src/assets/avatar.jpg',
+      avatar: '/src/assets/avatar.jpg',
       name: '说文',
       description: 'Star on <a href="https://github.com/mjjh1717/chatgpt-shuowen" class="text-blue-500" target="_blank" >Github</a>',
       id: '',
